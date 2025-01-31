@@ -2,9 +2,10 @@
 
  import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
-import 'package:flutter_game_test/components/bullet.dart';
-import 'package:flutter_game_test/components/explosion.dart';
-import 'package:flutter_game_test/space_shooter.dart';
+import 'package:flutter_game_test/space_shooter/components/bullet.dart';
+import 'package:flutter_game_test/space_shooter/components/explosion.dart';
+
+import 'package:flutter_game_test/space_shooter/space_shooter.dart';
 
 class Enemy extends SpriteComponent with HasGameReference<SpaceShooterGame>,CollisionCallbacks {
   static const enemySize = 50.0;

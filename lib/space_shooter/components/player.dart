@@ -1,7 +1,6 @@
 import 'package:flame/components.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_game_test/components/bullet.dart';
-import 'package:flutter_game_test/space_shooter.dart';
+import 'package:flutter_game_test/space_shooter/components/bullet.dart';
+import 'package:flutter_game_test/space_shooter/space_shooter.dart';
 
 // class Player extends PositionComponent {
 //   static final _paint = Paint()..color = Colors.white;

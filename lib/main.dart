@@ -1,6 +1,6 @@
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_game_test/space_shooter.dart';
+import 'package:flutter_game_test/space_shooter/space_shooter.dart';
 
 void main() {
   runApp(const MyApp());

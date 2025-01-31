@@ -3,7 +3,7 @@
 
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
-import 'package:flutter_game_test/space_shooter.dart';
+import 'package:flutter_game_test/space_shooter/space_shooter.dart';
 
 class Bullet extends SpriteComponent with HasGameReference<SpaceShooterGame> {
   Bullet({

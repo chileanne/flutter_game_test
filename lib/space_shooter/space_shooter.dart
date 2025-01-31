@@ -7,9 +7,10 @@
 import 'package:flame/components.dart';
 import 'package:flame/events.dart';
 import 'package:flame/game.dart';
-import 'package:flutter_game_test/components/enemy.dart';
-import 'package:flutter_game_test/components/player.dart';
+
 import 'package:flame/experimental.dart';
+import 'package:flutter_game_test/space_shooter/components/enemy.dart';
+import 'package:flutter_game_test/space_shooter/components/player.dart';
 
 
 ///A hitbox is nothing more than a defined part of the component’s area that can hit other objects.
