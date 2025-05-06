@@ -1,5 +1,6 @@
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_game_test/Ember_Quest/ember_quest.dart';
 import 'package:flutter_game_test/card_game/card_game.dart';
 import 'package:flutter_game_test/space_shooter/space_shooter.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       // home: GameWidget(game: SpaceShooterGame()),
-      home: GameWidget(game: CardGame()),
+      // home: GameWidget(game: CardGame()),
+      home: GameWidget(game: EmberQuestGame()),
     );
   }
 }
